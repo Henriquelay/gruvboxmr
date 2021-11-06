@@ -86,7 +86,7 @@ windowBgActive: pOrange; // Checked radio and checkbox color
 windowFgActive: pBg; // Button Text [te]
 windowActiveTextFg: pBlue; // Hyperlink text color (and text input active labels)
 windowShadowFg: cBlack80T; // [te]
-windowShadowFgFallback: cBlack; // [te]
+windowShadowFgFallback: windowBg; // [te]
 shadowFg: base01; // [te]
 slideFadeOutBg: windowBg; // ???
 slideFadeOutShadowFg: cTransparent; // ??? [te]
@@ -378,7 +378,7 @@ historyComposeAreaBg: windowBg;
 historyComposeAreaFg: historyTextInFg;
 historyComposeAreaFgService: pFg; // [te]
 historyComposeIconFg: pBlue; // Bottom chat icons (Attach File, Emoji, Microphone)
-emojiIconFgActive: historyComposeIconFg; 
+emojiIconFgActive: pOrange; 
 historyComposeIconFgOver: pOrange;
 historySendIconFg: menuIconFg; // Paper plane icon that shows when text is typed (click to send)
 historySendIconFgOver: pChalk; // [te]

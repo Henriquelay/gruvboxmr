@@ -198,7 +198,7 @@ dialogsChatIconFg: pBlue; // [te]
 dialogsDateFg: windowSubTextFg;
 dialogsTextFg: windowSubTextFg;
 dialogsTextFgService: base03;
-dialogsDraftFg: pChalk; // Draft label color
+dialogsDraftFg: pGrayMid; // Draft label color
 dialogsVerifiedIconBg: pBlue; // verified icon bg [te]
 dialogsVerifiedIconFg: pBg; // verified icon text color [te]
 dialogsSendingIconFg: pOrange; // ??? little clock icon on chat contact (the ones on left sidebar) when sending
@@ -381,7 +381,7 @@ historyComposeIconFg: pBlue; // Bottom chat icons (Attach File, Emoji, Microphon
 emojiIconFgActive: pOrange; 
 historyComposeIconFgOver: pOrange;
 historySendIconFg: menuIconFg; // Paper plane icon that shows when text is typed (click to send)
-historySendIconFgOver: pChalk; // [te]
+historySendIconFgOver: pOrange; // [te]
 historyPinnedBg: windowBg;
 historyReplyBg: historyComposeAreaBg;
 historyReplyCancelFg: cancelIconFg;
